@@ -1,0 +1,116 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #222;
+  padding-top: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+  margin-top: 30px;
+  gap: 25px;
+}
+
+input, select {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+}
+
+select {
+  cursor: pointer;
+}
+
+#movieContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+.card-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 180px;
+  height: 350px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+	margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.card:hover {
+  background-color: #444;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card h3 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.more-info {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.more-info:hover {
+  background-color: darkgreen;
+}
+
+img {
+  width: 100%;
+}
+#search-btn {
+  width: 80px;
+  height: 38px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(255, 35, 35);
+  color: white;
+}
